@@ -1,6 +1,7 @@
 <template>
   <div>Board</div>
   <BoardHeader />
+  <BoardBody />
   <BoardFooter />
 </template>
 
@@ -8,11 +9,13 @@
 import { defineComponent } from 'vue';
 import BoardFooter from '@components/BoardFooter.vue';
 import BoardHeader from '@components/BoardHeader.vue';
+import BoardBody from '@components/BoardBody.vue';
 
 export default defineComponent({
   components: {
-    BoardFooter,
     BoardHeader,
+    BoardBody,
+    BoardFooter,
   },
 });
 </script>

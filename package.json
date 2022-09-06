@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@types/lodash.uniqueid": "^4.0.7",
-    "@types/node": "^16.11.56",
+    "@types/node": "^16.11.57",
     "@vitejs/plugin-vue": "^3.0.3",
     "@vitejs/plugin-vue-jsx": "^2.0.1",
     "@vue/tsconfig": "^0.1.3",

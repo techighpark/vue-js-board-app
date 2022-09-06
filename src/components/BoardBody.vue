@@ -1,7 +1,4 @@
-<template>
-  Footer
-  <div>Footer</div>
-</template>
+<template>Body</template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';

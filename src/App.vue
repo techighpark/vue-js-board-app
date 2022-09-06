@@ -1,17 +1,15 @@
 <template>
-  <Home />
   <!-- <ComponentAVue label="hello" v-bind:done="true" /> -->
+  <Router />
+  <router-view />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-// import ComponentAVue from './components/ComponentA.vue';
-import Home from './views/Home.vue';
+import Router from '@components/Router.vue';
 
 export default defineComponent({
   name: 'app',
-  components: {
-    Home,
-  },
+  components: { Router },
 });
 </script>

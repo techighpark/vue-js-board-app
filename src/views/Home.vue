@@ -1,30 +1,16 @@
 <template>
-  <Home />
+  <h1>Home</h1>
+  <div>Welcome to my first vue example file</div>
+  <TheLayout />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import TheLayout from '../components/layouts/TheLayout.vue';
 
 export default defineComponent({
   name: 'home',
-  components: {
-    // ComponentAVue,
-    Home,
-  },
-  // data() {
-  //   return {
-  //     count: ref<number>(0),
-  //   };
-  // },
-  // props: {
-  //   msg: String,
-  // },
-  // setup(props) {
-  //   props.msg;
-  // },
-  // created() {
-  //   console.log(this.msg);
-  // },
+  components: { TheLayout },
 });
 </script>
 
